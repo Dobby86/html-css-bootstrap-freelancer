@@ -3,7 +3,7 @@
   display: table;
   clear: both;
 }
-.fas>.centrato {
+.fas  {
     text-align: center;
     color: #2c3e50;
     font-size: 30px;
@@ -107,6 +107,7 @@ h3 {
 
 #abo {
     text-align: center;
+    font-size: 30px;
 }
 .pi1 {
     text-align: left;
@@ -125,7 +126,7 @@ h3 {
 }
 .accentrato2 {
     background-color: #1abc9c;
-    height:800px;
+    height: 450px;
     width: 100%;
     text-align:center;
 }
@@ -139,4 +140,21 @@ h3 {
     font-size: 17px;
     color:  white;
     background-color:  #1abc9c;
+}
+#contact {
+    font-size:30px;
+    text-align: center;
+    color: #2c3e50;
+    background-color: white
+}
+.contatti {
+    height: 50px;
+    background-color: white;
+    display: block;
+    text-align: center;
+}
+
+.contatti>input {
+    overflow: visible;
+    margin-top: 20px;
 }
