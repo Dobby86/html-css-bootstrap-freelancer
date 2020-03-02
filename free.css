@@ -3,47 +3,140 @@
   display: table;
   clear: both;
 }
+.fas>.centrato {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 30px;
+}
+
 * {
     padding:0;
     margin: 0;
     box-sizing: border-box;
 }
+
 [class*="col-"] {
   float: left;
-  border:1px solid black;
+  /* border:1px solid black; */
 }
+.navbar {
+    background-color: #2c3e50;
+}
+.destra {
+    text-align: right;
+    height: 130px;
+    background-color: #2c3e50;
+
+}
+
+.sinistra {
+    height: 130px;
+    background-color: #2c3e50;
+    padding: 10px;
+    padding-left: 100px;
+
+}
+.pezzo1 {
+    padding:  100px;
+}
+
 .container {
-    height: 200px;
-    background-color: yellow;
+    /* height: 100px; */
+    background-color: grey;
+    width: 1170px;
 }
 #lista1 {
     width: 400px;
-    padding: 0;
-    margin: 0;
+    padding-top: 35px;
+    margin-left: 50px;
     display: block;
     list-style-type: none;
+    font-size: 17px;
+
 }
 #lista1>li {
     display: inline;
+    color: white;
+    padding: 5px;
+    margin:5px;
+
+}
+#start1 {
+    color: white;
+    text-align: center;
 }
 #faccina {
-    height: 200px;
+    height: 250px;
     width: auto;
     text-align: center;
     /* margin-left: 500PX; */
 }
 h1 {
     text-align: center;
+    color: white;
+    font-size:  50px;
 }
+h3 {
+    color: white;
+}
+
 
 .centrato {
     text-align:center;
-}
- .divider-custom-line {
-    width: 100%;
+    background-color: #1abc9c;
+    height: 650px;
 
-    height: .25rem;
-    background-color: black;
-    border-radius: 1rem;
-    border-color: #2c3e50!important;
+}
+
+#port {
+    text-align: center;
+}
+
+.picture {
+    height: 400px;
+    width: auto;
+    float: left;
+    margin-left:60px;
+}
+.accentrato {
+    background-color: white;
+    height:800px;
+    width: 100%;
+    text-align:center;
+}
+
+#abo {
+    text-align: center;
+}
+.pi1 {
+    text-align: left;
+    margin-left: 300px;
+    font-size: 17px;
+    color: white;
+}
+.pi11 {
+    text-align: left;
+    font-size: 17px;
+    color: white;
+}
+
+.latosx {
+
+}
+.accentrato2 {
+    background-color: #1abc9c;
+    height:800px;
+    width: 100%;
+    text-align:center;
+}
+.but {
+    text-align:center;
+}
+#button {
+    border-radius:  10px;
+    height: 60px;
+    width: 250px;
+    font-size: 17px;
+    color:  white;
+    background-color:  #1abc9c;
 }
