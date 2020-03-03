@@ -20,7 +20,6 @@
     height: 600px;
     background-color: #1abc9c;
 
-
 }
 
 
@@ -83,7 +82,7 @@ h1 {
     color: white;
     font-size:  50px;
 }
-h3 {
+#grap {
     color: white;
 }
 
@@ -243,6 +242,34 @@ header .navbar-default {
 .bottone {
     text-align: center;
     font-size: 20px;
-    margin-left: -120px;
+    margin-left: -100px;
     margin-top: 300px;
+}
+#send {
+    border-radius: 10px;
+    background-color: #1abc9c;
+    height: 50px;
+    width: 80px;
+    color: white;
+}
+#indi {
+
+}
+footer {
+    background-color: #2c3e50;
+    /* height: 300px; */
+}
+.loghi .fab {
+    font-size: 50px;
+    margin: 10px;
+    color: white;
+}
+#ultimo {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+.partefinale {
+   background-color: #1a252f;
+   height: 100px;
 }
